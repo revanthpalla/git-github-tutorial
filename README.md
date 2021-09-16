@@ -33,3 +33,12 @@ steps
 
 7. To see what are things we done on that branch(here master)
 >> git log
+
+8. To create a branch in local Repo
+>> git branch Mark1Branch
+
+9. To switch from master(branch) to Current created branch in local repo
+>> git checkout Mark1Branch
+
+9. If you want to see what are the files in that branch
+>> ls
