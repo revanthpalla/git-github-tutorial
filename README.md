@@ -18,3 +18,18 @@ steps
 
 2. Add a link between local repo and central repo using
 >> git remote add origin <link> // link of central repository link
+
+3. what are the files in index
+>> git status
+
+4. if you want to commit any changes to a file, we need to add it to the index
+>> git add gitcommands.txt
+
+5. To add multiples files to staged area for commiting
+>> git add -A
+
+6. Similarly to commit multiple files 
+>> git commit -a -m "updated version 1.01"
+
+7. To see what are things we done on that branch(here master)
+>> git log
