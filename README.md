@@ -42,3 +42,9 @@ steps
 
 9. If you want to see what are the files in that branch
 >> ls
+
+10. TO rebase a branch go to that branch(Mark1Branch)
+>> git rebase master
+
+11. Merge branch in master
+>> git merge Mark1Branch
