@@ -48,3 +48,14 @@ steps
 
 11. Merge branch in master
 >> git merge Mark1Branch
+
+12. For more secure push generate ssh key
+>> ssh-keygen
+   it will ask for overwrite[y/n]: y
+   Later it will ssh key in local disk C:\Users\91830\.ssh
+   Copy it and Later paste it in github ssh keys
+   
+   ssh -T git@github.com
+
+13. Push those changes to final github account
+>>  git push origin Mark1Branch
